@@ -39,7 +39,7 @@ const App = () => {
   //combo for input value, onChange with function
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>Find recipe here and start cooking!</h1>
       <form onSubmit={getInput} className="search-form">
         <input
           className="search-bar"

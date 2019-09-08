@@ -25,3 +25,8 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+h1 {
+  padding-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
