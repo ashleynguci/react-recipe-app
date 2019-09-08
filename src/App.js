@@ -51,13 +51,16 @@ const App = () => {
           Search
         </button>
       </form>
-      {recipe.map(recipe => (
-        <Recipe
-          key={recipe.recipe.label}
-          title={recipe.recipe.label}
-          image={recipe.recipe.image}
-        />
-      ))}
+      <div className="recipe">
+        {recipe.map(recipe => (
+          <Recipe
+            key={recipe.recipe.label}
+            title={recipe.recipe.label}
+            image={recipe.recipe.image}
+            ingredient={recipe.recipe.ingredients}
+          />
+        ))}
+      </div>
     </div>
   );
 };
